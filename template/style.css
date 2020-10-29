@@ -59,6 +59,14 @@ body {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff8000;
+}
+
 /* home screen */
 
 .products {
@@ -76,8 +84,16 @@ body {
     border-bottom: .1rem #c0c0c0 solid;
 }
 
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .product-name {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .product-brand {
@@ -86,7 +102,7 @@ body {
 }
 
 .product-price {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
